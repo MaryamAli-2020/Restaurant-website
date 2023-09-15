@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="icon" href="images/UKIYO (2).png" type="image/icon type">
+<title>Home | Ukiyo</title>
+<!-- <script src="action.js"></script> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"><!--navbar-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> <!--social media-->
+</head>
+<body style="background-color: #222;">
+
+<!--navigation bar-->
+    <nav id = "star" class = "star">
+        <ul class="menu">
+            <li class="logo"><a href="#">UKIYO</a></li>
+            <li class="item"><a href="#"><b>Home</b></a></li>
+            <li class="item"><a href="#about_us">About</a></li>
+            <li class="item has-submenu">
+                <a tabindex="0" style="cursor:pointer;">Menu</a>
+                <ul class="submenu">
+                    <!--Menu-->
+                    <li class="subitem"><a href="menu.html#breakfast">Breakfast</a></li>
+                    <li class="subitem"><a href="menu.html#desserts">Desserts</a></li>
+                    <li class="subitem"><a href="menu.html#coffee">Coffee</a></li>
+                    <li class="subitem"><a href="menu.html#drinks">Drinks</a></li>
+                    <li class="subitem"><a href="menu.html#add-ons">Add-ons</a></li>
+                </ul>
+            </li>
+            <li class="item has-submenu">
+                <a tabindex="0" style="cursor:pointer;">Careers</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="#">General Manager</a></li>
+                    <li class="subitem"><a href="#">Host</a></li>
+                    <li class="subitem"><a href="#">Sous Chef</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="#reservation">Booking</a></li>
+            <li class="item"><a href="orderOnline.html">Order-Online</a></li>
+            <li class="item"><a href="#Contact_Us">Contact</a>
+            </li>
+            <li class="item button"><a href="#" onclick="document.getElementById('id01').style.display='block'">Log In</a></li>
+            <li class="item button secondary"><a href="#" onclick="document.getElementById('id02').style.display='block'">Sign Up</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+
+<!--end of navigation bar-->
+
+<!--login form-->
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="#" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'"  id = "x" class="close" title="Close Modal">&times;</span>
+      <img src="images/Avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container22">
+      <label for="uname">Username</label>
+      <input class = "login-input" type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw">Password</label>
+      <input class = "login-input" type="password" placeholder="Enter Password" name="psw" required>
+
+      <button class="logbtn" type="submit" style="align-items: center;">Login</button> 
+      <br><br>
+      <span class="signin"> <a href="#" id="close-login" onclick="document.getElementById('id02').style.display='block'">Not a member yet?</a></span>
+    </div>
+  </form>
+</div>
+
+<!--end of login from-->
+
+
+<!--signin form-->
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="#" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'"  id = "x" class="close" title="Close Modal">&times;</span>
+      <img src="images/Avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container22">
+      <label for="uname">Username</label>
+      <input class = "login-input" type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="email">Email</label>
+      <input class = "login-input" type="email" placeholder="Enter Email" name="email" required>
+
+      <label for="psw">Password</label>
+      <input class = "login-input" type="password" placeholder="Enter Password" name="psw" required>
+
+      <button class="logbtn" type="submit" style="align-items: center;">Sign up</button>
+      <br><br>
+      <span class="signin"> <a href="#" id="close-signup" onclick="document.getElementById('id01').style.display='block'">already a member?</a></span>
+    </div>
+  </form>
+</div>
+
+<!--end of signin from-->
+
+<!--image slideshow-->
+<div id='blur'>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img  src="images/sebastian-schuppik-H7xTpvBjJS4-unsplash (1).jpg"style="width: 100%; ">
+      <!-- <div class="text">Caption Text</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/PIC2.jpg" style="width:100%;">
+      <!-- <div class="text">Caption Two</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/PIC3.jpg" style="width:100%;">
+      <!-- <div class="text">Caption Three</div> -->
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+<!--end of image slideshow-->
+
+<!--Welcome sign-->
+<br>
+<p class="small">celebrate your senses in</p>
+<h1>ukiyo</h1>
+
+<!-- end of welcome sign-->
+
+<!--about us-->
+<br><br>
+<center id = 'about_us'>
+<span style="margin-top: 70px;">About Us</span><br><br>
+<h3>~Our Story~</h3>
+<br><br>
+<p>
+  "Ukiyo" is a premier and authentic Dessert Cafe that has been proudly serving the Ajman and Dubai areas and beyond starting 2021. Since then, our mission has been to provide high-quality food and drinks for all those that wish to combine fun and enjoyable ambiance with skillful cooking into one extraordinary dining experience. Scroll down to learn more about us.
+</p>
+</center>
+<!--end of about us-->
+
+<!--reservation-->
+
+<section class ="banner" id="reservation">
+
+  <hr>
+
+  <span>BOOK YOUR TABLE NOW</span>
+  <div class="card-container">
+    <div class="card-img">
+      <img src="images/reservationn.jpg" alt="coffee" width="495px">
+    </div>
+
+    <div class="card-content">
+      <h3>Reservation</h3>
+      <form action="https://formsubmit.co/mhralikeamoon@gmail.com" method="POST">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_autoresponse" value="You Have Booked A Reservation At Ukiyo! We Will Get Your Table Ready For You :)">
+        <input type="hidden" name="_subject" value="Someone Just Booked A Table!">
+
+
+        <div class="form-row">
+          <select name="days" id="" required>
+            <option value="sunday">Sunday</option>
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+          </select>
+
+
+          <select name="hours" id="" required>
+            <option value="11">11:00am</option>
+            <option value="12">12:00am</option>
+            <option value="1">1:00pm</option>
+            <option value="2">2:00pm</option>
+            <option value="3">3:00pm</option>
+            <option value="4">4:00pm</option>
+            <option value="5">5:00pm</option>
+            <option value="6">6:00pm</option>
+            <option value="7">7:00pm</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <input class = "reservation-input" type="text" placeholder="Full Name" required>
+          <input class = "reservation-input" type="text" placeholder="Phone Number" required>
+        </div>
+
+        <div class="form-row">
+          <input class = "reservation-input" type="number" placeholder="How Many Person?" required>
+          <input class = "submitbtn-reservation" type="submit" value="BOOK TABLE">
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<!--end of reservation-->
+
+
+<!--contact-->
+<section class="contact-section" id="Contact_Us">
+  <div class="container">
+      <div class="contact-left">
+          <h2 style="margin-top: 70px;">Contact Us</h2>
+<br>
+          <form action="https://formsubmit.co/mhralikeamoon@gmail.com" method="POST">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_autoresponse" value="Thank You For Your Message, We Will Reply to You Shortly!">
+            <input type="hidden" name="_subject" value="New Contact Form Is Filled!">
+
+
+            <label for="name">Name</label>
+              <input class = "contact-input" type="text" id="name" name="name" placeholder="Your Name" required>
+              
+              <label for="email">Email</label>
+              <input class = "contact-input" type="text" id="email" name='email' placeholder="Your Email" required>
+
+              <label for="message">Message</label>
+              <textarea class="contact-textarea" name="message" id="message" cols="30" rows="10" placeholder="Type Here..." required></textarea>
+
+              <button type="submit" class="send" >Submit</button>
+          </form>
+      </div>
+      <div class="contact-right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.3060694314!2d54.94686678115213!3d25.076380178584742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai!5e0!3m2!1sen!2sae!4v1627142837936!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+  </div>
+</section>
+<!--end of contact-->
+
+
+<!--opening hours-->
+<center id="opening_hours">
+  <span>opening hours</span>
+  <br><br>
+  <h3>~Dine In or Take Away~</h3>
+  <br>
+  <p>Sunday-Thursday: 11am-11pm</p>
+  <p>Friday &amp; Saturday: 11am-7pm</p>
+</center>
+
+<!--end of opening hours-->
+
+<!--social media-->
+<section style="font-family:'Poppins', sans-serif ;place-items: center; display: grid;" class = "media">
+<div class="wrapper">
+  <div class = "icon facebook">
+  <div class="tooltip">
+    Facebook
+  </div>
+  <span><i class = "fab fa-facebook-f"></i></span>
+</div>
+
+<div class="icon twitter">
+  <div class="tooltip">
+    Twitter
+  </div>
+  <span><i class = "fab fa-twitter"></i></span>
+</div>
+
+<div class="icon instagram">
+  <div class="tooltip">
+    Instagram
+  </div>
+  <span><i class = "fab fa-instagram"></i></span>
+</div>
+
+<div class="icon github">
+  <div class="tooltip">
+    Github
+  </div>
+  <span><i class = "fab fa-github"></i></span>
+</div>
+
+<div class = "icon youtube">
+  <div class="tooltip">
+    Youtube
+  </div>
+  <span><i class="fab fa-youtube"></i></span>
+</div>
+</div>
+
+<span class="footer">follow us on social media for more
+<br> ©2021 by 'UKIYO'. Proudly by Maryam Hesham</span>
+<br><br>
+</section>
+<!--end of social media-->
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+// navigation bar
+
+const toggle = document.querySelector(".toggle");
+const menu = document.querySelector(".menu");
+ 
+/* Toggle mobile menu */
+function toggleMenu() {
+    if (menu.classList.contains("active")) {
+        menu.classList.remove("active");
+         
+        // adds the menu (hamburger) icon
+        toggle.querySelector("a").innerHTML = "<i class='fas fa-bars'></i>";
+    } else {
+        menu.classList.add("active");
+         
+        // adds the close (x) icon 
+        toggle.querySelector("a").innerHTML = "<i class='fas fa-times'></i>";
+    }
+}
+
+/* Event Listener */
+toggle.addEventListener("click", toggleMenu, false);
+
+const items = document.querySelectorAll(".item");
+ 
+/* Activate Submenu */
+function toggleItem() {
+  if (this.classList.contains("submenu-active")) {
+    this.classList.remove("submenu-active");
+  } else if (menu.querySelector(".submenu-active")) {
+    menu.querySelector(".submenu-active").classList.remove("submenu-active");
+    this.classList.add("submenu-active");
+  } else {
+    this.classList.add("submenu-active");
+  }
+}
+
+
+ 
+/* Event Listeners */
+for (let item of items) {
+    if (item.querySelector(".submenu")) {
+      item.addEventListener("click", toggleItem, false);
+      item.addEventListener("keypress", toggleItem, false);
+    }   
+}
+
+/* Close Submenu From Anywhere */
+function closeSubmenu(e) {
+    let isClickInside = menu.contains(e.target);
+   
+    if (!isClickInside && menu.querySelector(".submenu-active")) {
+      menu.querySelector(".submenu-active").classList.remove("submenu-active");
+    }
+  }
+   
+  /* Event listener */
+  document.addEventListener("click", closeSubmenu, false);
+//end of navigation bar
+
+
+
+
+//image slide show
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activepic", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " activepic";
+}
+
+/*
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+*/
+//end of image slideshow
+
+
+//login form
+var modal =document.getElementById('id01');
+
+ //when the user clicks anywhere outside of the modal, close it
+// window.onclick=function(event){
+//   if(event.target ==modal){
+//     modal.style.display="none";
+//   }
+// }
+
+
+
+//close-login
+document.getElementById('close-login').addEventListener('click',function(){
+    document.getElementById('id01').style.display = 'none';
+});
+
+//end of login form
+
+//signin form
+var modal =document.getElementById('id02');
+
+//when the user clicks anywhere outside of the modal, close it
+window.onclick=function(event){
+  if(event.target ==modal){
+    modal.style.display="none";
+  }
+
+
+}
+
+
+//close-signup
+document.getElementById('close-signup').addEventListener('click',function(){
+    document.getElementById('id02').style.display = 'none';
+});
+//end of signin form
+</script>
+</html>

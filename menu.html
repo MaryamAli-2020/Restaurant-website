@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="icon" href="images/UKIYO (2).png" type="image/icon type">
+
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Menu | Ukiyo</title>
+</head>
+<body>
+<!--home button-->
+<button  class="home-btn"><a style = "text-decoration: none; color: #fff;"href ="index.html" class="fa fa-home"></a></button><!--end of home button-->
+
+<!--Menu display-->
+<div class="menu-display">
+    <img src="images/UKIYO (2).png" alt="logo" style="width:100%; opacity: 0.5;">
+    <div class="center-menu">Menu
+        <p style="font-size: small; color: #666">Dine In Or Take Away</p>
+    </div>
+    
+</div>
+<!--end of menu display-->
+<!--navigation-->
+<section class="header-section">
+    <div class="pagination">
+        <!-- <a href="#">&laquo;</a> -->
+        <a class = "servings" href="#breakfast">Breakfast</a>
+        <a class = "servings" href="#desserts">Desserts</a>
+        <a class = "servings" href="#coffee">Coffee</a>
+        <a class = "servings" href="#drinks">Drinks</a>
+        <a class = "servings" href="#add-ons">Add.</a>
+        <!-- <a href="#">&raquo;</a> -->
+    </div>
+    <br><br><br>
+<!--end of navigation-->
+
+<!--menu-->
+<div class="container">
+    <div class="menu">
+        <h2 class="menu-group-heading" id="breakfast">
+           <img class="menu-item-icon" src="images/fork.svg" alt="fork"> Breakfast
+        </h2>
+        <div class="menu-group">
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/pancakes.jpg" alt="Pancakes">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">Pancakes</span>
+                        <span class="menu-item-price">23AED</span>
+                    </h3>
+                    <p class="menu-item-description">Fluffy Pancakes, served with strawberry, blueberry and syrup. <br>Total time: 25 min | Yield: 6 Per Plate</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+                    
+                </div>
+            </div>
+
+
+            <!--popup-->
+            <div id="popup1" style="color: #000;" class="overlay">
+                <div class="popup">
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        <table class="performance-facts__table">
+                            <thead>
+                              <tr>
+                                <th colspan="3" class="small-info">
+                                  Amount Per Serving
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th colspan="2">
+                                  <b>Calories</b>
+                                  200
+                                </th>
+                                <td>
+                                  Calories from Fat
+                                  130
+                                </td>
+                              </tr>
+                              <tr class="thick-row">
+                                <td colspan="3" class="small-info">
+                                  <b>% Daily Value*</b>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th colspan="2">
+                                  <b>Total Fat</b>
+                                  14g
+                                </th>
+                                <td>
+                                  <b>22%</b>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="blank-cell">
+                                </td>
+                                <th>
+                                  Saturated Fat
+                                  9g
+                                </th>
+                                <td>
+                                  <b>22%</b>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="blank-cell">
+                                </td>
+                                <th>
+                                  Trans Fat
+                                  0g
+                                </th>
+                                <td>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th colspan="2">
+                                  <b>Cholesterol</b>
+                                  55mg
+                                </th>
+                                <td>
+                                  <b>18%</b>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th colspan="2">
+                                  <b>Sodium</b>
+                                  40mg
+                                </th>
+                                <td>
+                                  <b>2%</b>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th colspan="2">
+                                  <b>Total Carbohydrate</b>
+                                  17g
+                                </th>
+                                <td>
+                                  <b>6%</b>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="blank-cell">
+                                </td>
+                                <th>
+                                  Dietary Fiber
+                                  1g
+                                </th>
+                                <td>
+                                  <b>4%</b>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="blank-cell">
+                                </td>
+                                <th>
+                                  Sugars
+                                  14g
+                                </th>
+                                <td>
+                                </td>
+                              </tr>
+                              <tr class="thick-end">
+                                <th colspan="2">
+                                  <b>Protein</b>
+                                  3g
+                                </th>
+                                <td>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        
+                          <table class="performance-facts__table--grid">
+                            <tbody>
+                              <tr>
+                                <td colspan="2">
+                                  Vitamin A
+                                  10%
+                                </td>
+                                <td>
+                                  Vitamin C
+                                  0%
+                                </td>
+                              </tr>
+                              <tr class="thin-end">
+                                <td colspan="2">
+                                  Calcium
+                                  10%
+                                </td>
+                                <td>
+                                  Iron
+                                  6%
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+            <!--end of popup-->
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/eggSandwitch.jpg" alt="Egg Sandwitch">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">Egg Sandwitch</span>
+                        <span class="menu-item-price">20AED</span>
+                    </h3>
+                    <p class="menu-item-description">Egg Sandwitch, served with avocados, toast, pepper and salt. <br>Total time: 20 min | Yield: 2 Per Plate</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/waffles.jpg" alt="waffles">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">Waffles</span>
+                        <span class="menu-item-price">20AED</span>
+                    </h3>
+                    <p class="menu-item-description">Waffles, served with banana slices and chocolate<br>Total time: 20 min | Yield: 2 Per Plate</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/oamlet.jpg" alt="Oamlet">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">Oamlet</span>
+                        <span class="menu-item-price">25AED</span>
+                    </h3>
+                    <p class="menu-item-description">Oamlet, served with sweet potatoes and crunchy toast <br>Total time: 27 min | Yield: 1 Per Plate</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+        </div>
+
+        <h2 class="menu-group-heading" id="desserts">
+            <img class="menu-item-icon" src="images/donut.svg" alt="donut"> Desserts
+        </h2>
+        <div class="menu-group">
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/strawberryCake.jpg" alt="Strawberry Cake">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">strawberry cake</span>
+                        <span class="menu-item-price">32AED</span>
+                    </h3>
+                    <p class="menu-item-description">Strawberry Cake, contains cheese, biscuit and strawberry, etc... <br>Total time: 30 min | Yield: 1 Per Plate</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/choclateCake.jpg" alt="Chocolate Cake">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">chocolate cake</span>
+                        <span class="menu-item-price">30AED</span>
+                    </h3>
+                    <p class="menu-item-description">Chocolate Cake, pouring chocolate mix, served with coconut <br>Total time: 27 min | Yield: 1 Per Plate</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/donut.jpg" alt="Donut">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">Donut</span>
+                        <span class="menu-item-price">15AED</span>
+                    </h3>
+                    <p class="menu-item-description">A donut that is heated, soft and served with chocolate and slices of strawberry <br>Total time: 15 min | Yield: 1 Per Plate</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/choclateBisuit.jpg" alt="Choclate biscuit">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">chocolate biscuit</span>
+                        <span class="menu-item-price">20AED</span>
+                    </h3>
+                    <p class="menu-item-description">Chocolate Bisuit, served with nutella choclate, small and crunchy <br>Total time: 15 min | Yield: 12 Per Plate</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/mmcookies.jpg" alt="m&m Cookies">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">M&amp;M Cookies</span>
+                        <span class="menu-item-price">20AED</span>
+                    </h3>
+                    <p class="menu-item-description">M&amp;M Cookies that are soft and have a taste of coconut. Are large in size<br>Total time: 15 min | Yield: 3 Per Plate</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/chocolatecookie.jpg" alt="Chocolate  Cookies">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">chocolate cookies</span>
+                        <span class="menu-item-price">20AED</span>
+                    </h3>
+                    <p class="menu-item-description">Chocolate Cookies, a mix of chocolate and nuts. Are midium in size <br>Total time: 15 min | Yield: 5 Per Plate</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <h2 class="menu-group-heading" id="coffee">
+            <img class="menu-item-icon" src="images/coffee-cup.svg" alt="coffee"> Coffee
+        </h2>
+        <div class="menu-group">
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/latte.jpg" alt="Latte">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">latte</span>
+                        <span class="menu-item-price">24AED</span>
+                    </h3>
+                    <p class="menu-item-description">consists of 1/3 espresso, 2/3 heated milk and about 1cm of foam <br>Total time: 20 min | Yield: 1 Per Order</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/flateWhite.jpg" alt="Flate White">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">flat white</span>
+                        <span class="menu-item-price">21AED</span>
+                    </h3>
+                    <p class="menu-item-description"> two shots of espresso and barely more than a bit of foam <br>Total time: 20 min | Yield: 1 Per Order</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <h2 class="menu-group-heading" id="drinks">
+            <img class="menu-item-icon" src="images/milkshake.svg" alt="fork">Drinks
+        </h2>
+        <div class="menu-group">
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/strawberryDrink.jpg" alt="Strawberry Drink">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">strawberry limeade</span>
+                        <span class="menu-item-price">21AED</span>
+                    </h3>
+                    <p class="menu-item-description">Fresh Strawberry Limeade, served with strawberry, lime and mint. <br>Total time: 20 min | Yield: 1 Per Order</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/melonDrink.jpg" alt="Melon Drink">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">Melon balls</span>
+                        <span class="menu-item-price">21aed</span>
+                    </h3>
+                    <p class="menu-item-description"> Fresh Melon balls (Watermelon, honeydew, cantaloupe) &amp; lemon. <br>Total time: 10 min | Yield: 1 Per Order</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+        </div>
+
+        <h2 class="menu-group-heading" id="add-ons">
+            <img class="menu-item-icon" src="images/waffle.svg" alt="fork"> Add-ons
+        </h2>
+        <div class="menu-group">
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/oreo.jpg" alt="Oreo">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">oreo</span>
+                        <span class="menu-item-price">9aed</span>
+                    </h3>
+                    <p class="menu-item-description">Oreos with your desserts will takes 10 times better!<br> Yield: 4 Per Order </p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/marshmellow.jpg" alt="Marshmellow">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">marshmellow</span>
+                        <span class="menu-item-price">9aed</span>
+                    </h3>
+                    <p class="menu-item-description">Marshmellows with dessert/drink make everything soft <br>Yield: 8 Per Order</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/berries.jpg" alt="Berries">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">Berries</span>
+                        <span class="menu-item-price">10aed</span>
+                    </h3>
+                    <p class="menu-item-description">Berries make every dessert taste better effertlessly <br>Yield: 8 Per Order</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image" src="images/candyBar.jpg" alt="Candy Bar">
+                <div class="menu-item-text">
+                    <h3 class = "menu-item-heading">
+                        <span class="menu-item-name">Candy Bar</span>
+                        <span class="menu-item-price">10aed</span>
+                    </h3>
+                    <p class="menu-item-description">Add a candy bar to your order and see its magic <br>Yield: 1 Per Order</p>
+                    <a href="#popup1" class="popup-btn">Full Nutritions</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--end of menu-->
+
+<!--footer-->
+<footer class="main-footer">
+    <div class="container main-footer-container">
+        <h3 class="band-name">Purchase Your Order Online <br><br><a href="orderOnline.html">Order Now</a></h3>
+    </div>
+</footer>
+<!--end on footer-->
+</body>
+
+<script>
+
+
+</script>
+</html>
